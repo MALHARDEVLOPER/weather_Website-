@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <div class="video-container">
+        <video src="pictures/rain (1).mp4" autoplay muted loop class="video-background"></video>
+        <div class="content">
+            <form id="locationForm">
+                <input type="text" id="locationInput" placeholder="Enter location">
+                <button type="submit">Get Weather</button>
+            </form>
+            <div id="weatherInfo">
+                <img src="" id="weatherIcon" class="icon" alt="Weather Icon">
+                <h1 id="temperature">--°C</h1>
+                <h2 id="city">--</h2>
+                <p id="description">--</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
